@@ -33,22 +33,23 @@
 
 #include "GlobalConfigDetail.hpp"
 
-class GlobalConfig : public Singleton<GlobalConfig>
+class ofxGlobalConfig 
 {
+private:
+ofxGlobalConfig(){}
 public:
+
+static ofxGlobalConfig & Instance()
+{
+    static ofxGlobalConfig globalconfig;
+    return globalconfig;
+}
+
 template<typename T>
 static T & getRef(const std::string& k, const T & defaultvalue = T())
 {
     return GlobalConfigDetail::getRef<T>(k,defaultvalue);
 }
-
-///Global vars not in the XML config (calculated on runtime)
-
-float width;
-float height;
-
-static float getHeight(){return Instance().height;}
-static float getWidth(){return Instance().width;}
 
 };
 
