@@ -1,8 +1,7 @@
 /*
 
-    ofxTableGestures (formerly OF-TangibleFramework)
-    Developed for Taller de Sistemes Interactius I
-    Universitat Pompeu Fabra
+    ofxGlobalConfig
+    Developed to support ofxTableGestures
 
     Copyright (c) 2010 Carles F. Julià <carles.fernandez@upf.edu>
 

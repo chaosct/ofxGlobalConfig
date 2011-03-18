@@ -1,0 +1,27 @@
+<install>
+    <name>ofxGlobalConfig</name>
+    
+    <version>0.1</version>
+    <author>Carles F. Julià</author>
+    <url>http://github.com/chaosct/ofxGlobalConfig</url>
+    <requires>ofxXmlSettings</requires>
+    
+    <add>    
+        <!--    =====================================================================    -->
+        <!--    ========================== add per project using this addon =========    -->
+        <!--    =====================================================================    -->
+        <src>
+        
+            <folder name="addons/ofxGlobalConfig/src">
+                <file>../../../addons/ofxGlobalConfig/src/GlobalConfig.hpp</file>
+                <file>../../../addons/ofxGlobalConfig/src/GlobalConfigDetail.hpp</file>
+            </folder>
+        </src>
+        
+        <include>
+			<path>../../../addons/ofxGlobalConfig/src</path>
+        </include>
+        
+    </add>
+     
+</install>

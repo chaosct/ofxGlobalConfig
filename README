@@ -1,0 +1,8 @@
+ofxGlobalConfig is an openFrameworks addon that allows having a live XML-based configuration.
+
+It was originally created to support ofxTableGestures.
+
+Author:
+ Carles F. Julià <carles.fernandez@upf.edu>
+
+This project is released under the MIT license.
